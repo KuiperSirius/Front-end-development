@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+html {
+	background-color: #B5DEF2;
+}
+
+#container {
+	margin: 140px 0 140px auto;
+	width: 884px;
+}
+
+#main {
+	background-color: #F0F4F6;
+	/*上divcolor*/
+	border: 1px solid #BfD6E1;
+	border-radius: 5px;
+	color: #444;
+	font: 14px 'Microsoft YaHei', '微软雅黑';
+	margin: 0 auto;
+	width: 388px
+}
+
+#main #Center {
+	border-bottom: 1px solid #DDE0E8;
+	padding: 24px;
+}
+
+#main #Center p {
+	margin-bottom: 10px
+}
+
+#main #Buttons { /*background-color: #F0F4F6;*/
+	/*下divcolor*/
+	border-top: 0px solid #FFF;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	line-height: 28px;
+	overflow: hidden;
+	padding: 20px 24px;
+	vertical-align: center;
+	filter: alpha(Opacity = 80);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+
+#main .loginInput {
+	border: 1px solid #D2D9dC;
+	border-radius: 2px;
+	color: #444;
+	font: 12px 'Microsoft YaHei', '微软雅黑';
+	padding: 8px 14px;
+	margin-bottom: 8px;
+	width: 310px;
+}
+
+#main .loginInput:FOCUS {
+	border: 1px solid #B7D4EA;
+	box-shadow: 0 0 8px #B7D4EA;
+}
+
+#main .loginBtn {
+	background-image: -moz-linear-gradient(to bottom, blue, #85CFEE);
+	border: 1px solid #98CCE7;
+	border-radius: 20px;
+	box-shadow: inset rgba(255, 255, 255, 0.6) 0 1px 1px, rgba(0, 0, 0, 0.1)
+		0 1px 1px;
+	color: #444;
+	/*注册*/
+	cursor: pointer;
+	float: right;
+	font: bold 13px Arial;
+	padding: 10px 50px;
+}
+
+#main .loginBtn:HOVER {
+	background-image: -moz-linear-gradient(to top, blue, #85CFEE);
+}
+
+#main a.forgetLink {
+	color: #ABABAB;
+	cursor: pointer;
+	float: right;
+	font: 11px/20px Arial;
+	text-decoration: none;
+	vertical-align: middle;
+	/*返回登录界面*/
+}
+
+#main a.forgetLink:HOVER {
+	color: #000000;
+	text-decoration: none;	
+	/*返回登录界面*/
+}

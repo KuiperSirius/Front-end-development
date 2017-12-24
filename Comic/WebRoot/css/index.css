@@ -1,0 +1,167 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #B5DEF2;
+	background-size: cover;
+	font-family: 微软雅黑, 黑体;
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+	height: auto;
+	text-align: center;
+ 
+}
+
+#top {
+	height: 100px;
+	padding-top: 80px;
+}
+
+#top section {
+	float: left;
+	height: 100px;
+	width: 560px;
+	font-family: 华文彩云;
+	font-size: 90px;
+	line-height: 90px;
+	color: red;
+	text-shadow: 4px 3px 3px blue;
+}
+
+#top form {
+	float: right;
+	height: 40px;
+	width: 300px;
+	padding-top: 60px;
+}
+
+#main1 {
+	clear: both;
+	width: 960px;
+	height: 480px;
+	margin: 5px;
+}
+
+#left {
+	float: left;
+	font-size: 20px;
+	width: 120px;
+	border-radius: 10px;
+	text-align: left;
+}
+#up{
+	background-color: #F0F4F6;
+	width: 120px;
+	height: 300px;	
+	border: 1px #00008b solid;      
+	border-radius: 10px;
+	text-align: left;
+	line-height: 50px;
+}
+#up a {
+	text-decoration: none;
+	color: blue;
+}
+#up a:hover{
+	color:#0000AA;
+}
+#down {
+	width: 120px;
+	height: 150px;
+	border-radius: 10px;
+	font-family: 华文楷体;
+	font-size:25px;
+}
+
+#down .loginBtn {
+            background-image: -moz-linear-gradient(to bottom, blue, #85CFEE);
+            border: 1px solid #98CCE7;
+            border-radius: 20px;
+            box-shadow: inset rgba(255, 255, 255, 0.6) 0 1px 1px, rgba(0, 0, 0, 0.1) 0 1px 1px;
+            color: #444;
+            /*登录*/
+            cursor: pointer;           
+            font: bold 20px Arial;                    
+        }
+        
+#down .loginBtn:HOVER {
+            background-image: -moz-linear-gradient(to top, blue, #85CFEE);
+        }
+
+#right {
+	float: right;
+	width: 810px;
+	height: 450px;
+	border-radius: 10px;
+}
+
+#main2 {
+	background-color: #F0F4F6;
+	margin: 5px;
+	width: 960px;
+	height: 560px;
+	font-size: 20px;
+	font-family: 华文楷体;
+	border: 1px #BfD6E1 solid;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+
+#foot{
+	width: 960px;
+	height:20px;
+	font-size:15px;
+	font-family: 华文楷体;
+}
+#foot a{
+	 text-decoration:none;
+     color:blue;
+}
+//
+js图片样式
+
+setTimeout (function move (){object .style.top=scrollTop+t+"px"; //t为你需要他在屏幕中的位置
+	,最好选择可见高度适配document.documentElement.clientHeight,这样可以时用户在拉伸页面时,窗口自动适配
+	
+}
+
+,400);
+.ls1,.ls2,.ls3,.ls4,.ls5 {width ="50px" height:80px;
+	margin: 0;
+}
+
+.mainbox {
+	overflow: hidden;
+	position: relative;
+}
+
+.flashbox {
+	overflow: hidden;
+	position: relative;
+}
+
+.imagebox {
+	text-align: right;
+	position: relative;
+	z-index: 999;
+}
+
+.bitdiv {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin: 0 10px 10px 0px;
+	cursor: pointer;
+	float: right;
+}
+
+.defimg {
+	background-image: url(../images/index/02.png)
+}
+
+.curimg {
+	background-image: url(../images/index/01.png)
+}
